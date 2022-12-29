@@ -18,7 +18,9 @@ Since the options exactly equal to the stock value may not be availaible in the 
 
 However , if the market moves a little bit out of the profit zone , this may lead to losses . In such cases , adjustments are made . However , adjustements are difficult to make and are often done by skilled traders . However , I have implemented a short straddle along with my algorithm in such a way that it can adjust automatically to slight changes in the market . This can be seen in the above GIF where my P/L zone changes shape automatically if the market moves out of the profit zone .  
 
-NOTE - The data used in this GIF is imaginary and only for demonstration purposes , since I could not find data in which the market would crash both the upper and the lower breakeven point and test my algorithm to its limits .
+NOTE - The data used in this GIF is imaginary and only for demonstration purposes , since I could not find data in which the market would crash both the upper and the lower breakeven point and test my algorithm to its limits . Actual markets move slower and hence the algorithm would work even better on it . 
+
+The only disadvantage is that if the market swings unrealistically fast (due to some major incidence worldwide) , one can loose a lot money . Another disadvantage might be needing some funds to adjust positions sometimes . 
 
 NOTE - This project is only for demonstration purposes and I take no responsiblity for any financial losses incurred by deploying this stratergy in ur portfolio :) 
 

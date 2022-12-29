@@ -1,5 +1,5 @@
 # Adjusting-short-straddle-Quant-bot-
-Algorithmic implementation of my invention , automated adjustment of delta hedged initialized short straddle deployed over Derivatives (Options) market
+Algorithmic implementation of my invention , **automated adjustment of delta hedged initialized short straddle deployed over Derivatives (Options) market** 
 
 ![demo](https://user-images.githubusercontent.com/86561124/209945234-b9e96e77-0bf2-49ec-99c1-b412ca4d26a3.gif)
 
@@ -12,7 +12,7 @@ The above GIF shows an algorithm automatically trading options so that the P/L g
 Traditional Short straddle is a market neutral stratergy (delta approx 0 ) meaning that we gain money if the stock moves sideways , i.e. does not go too much up or down . It has more than 50% chance theortically , since points closer to the current spot position have higher chances compared to the farther points . This strategy also has a positive theta due to selling of a call and a put , meaning that stock maintaining its position inside the pyramid will also lead to earning money , since the premium of the options has extrinsic value too . 
 
 ![image](https://user-images.githubusercontent.com/86561124/209947331-230b66a2-1b8f-4cff-9497-179f77bf5346.png)
-
+[Sensibull Strategy Summary ] 
 
 Since the options exactly equal to the stock value may not be availaible in the market , we can set up a straddle near the original position and delta hedge it . Delta hedging is the practice of making delta of a portfolio 0 , so that it becomes insensitive to the market's motion . Such moves are often used to maximise the probablity of profit , and are even used by volatility and theta traders . 
 
